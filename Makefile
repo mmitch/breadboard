@@ -24,8 +24,9 @@
 
 ##
 ## mitch hack:
-## flash another source file: just call "make synth.flash" for example
-##
+## - flash another source file: just call "make synth.flash" for example
+## - clean subdirectories when called from main directory
+## 
 
 # MCU name
 MCU = atmega168
@@ -126,6 +127,9 @@ AVRDUDE_WRITE_FLASH = -U flash:w:$(TARGET).hex
 
 
 AVRDUDE_FLAGS = -p $(MCU) -P $(AVRDUDE_PORT) -c $(AVRDUDE_PROGRAMMER) -V
+
+
+SUBDIRS = lauflicht_plain lauflicht_shift
 
 # ---------------------------------------------------------------------------
 
@@ -344,6 +348,7 @@ clean_list :
 	$(REMOVE) $(SRC:.c=.d)
 	$(REMOVE) .dep/* 
 	rmdir .dep
+	@for DIR in $(SUBDIRS); do if [ -d $$DIR ]; then ( cd $$DIR/; make clean ) ; fi; done
 
 
 
