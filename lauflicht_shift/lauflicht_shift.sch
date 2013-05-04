@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sa 04 Mai 2013 11:34:59 CEST
+EESchema Schematic File Version 2  date Sa 04 Mai 2013 18:21:34 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,10 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-encoding utf-8
 Sheet 1 1
 Title ""
 Date "4 may 2013"
@@ -44,68 +43,85 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5200 3100 5700 3100
+	5250 3200 5500 3200
 Wire Wire Line
-	3400 2800 3400 3400
+	5250 3000 5900 3000
 Wire Wire Line
-	3400 2800 3800 2800
+	5250 2800 6300 2800
 Wire Wire Line
-	3600 3000 3600 3200
+	3850 3300 3250 3300
 Wire Wire Line
-	3600 3000 3800 3000
+	3850 3000 3550 3000
 Wire Wire Line
-	5900 4900 5900 5050
-Connection ~ 4700 5050
-Connection ~ 5900 5050
+	3250 3200 3550 3200
 Wire Wire Line
-	6100 5050 6100 4900
-Connection ~ 5500 5050
+	3700 5050 6300 5050
 Wire Wire Line
-	5700 4900 5700 5050
+	3700 5050 3700 3400
 Wire Wire Line
-	6300 4300 6300 4500
+	3250 3400 3400 3400
+Connection ~ 6100 5050
 Wire Wire Line
-	5900 4300 5900 4500
+	6300 5050 6300 4900
+Connection ~ 5700 5050
 Wire Wire Line
-	5500 4300 5500 4500
-Wire Wire Line
-	5700 3100 5700 3800
-Wire Wire Line
-	6100 3800 6100 2900
-Wire Wire Line
-	6100 2900 5200 2900
-Wire Wire Line
-	3250 3300 3800 3300
-Wire Wire Line
-	5200 2800 6300 2800
-Wire Wire Line
-	6300 2800 6300 3800
-Wire Wire Line
-	5200 3000 5900 3000
-Wire Wire Line
-	5900 3000 5900 3800
-Wire Wire Line
-	5200 3200 5500 3200
-Wire Wire Line
-	5500 3200 5500 3800
-Wire Wire Line
-	5700 4300 5700 4500
-Wire Wire Line
-	6100 4300 6100 4500
+	4700 5050 4700 5200
 Wire Wire Line
 	5500 5050 5500 4900
 Wire Wire Line
-	4700 5200 4700 5050
-Connection ~ 5700 5050
+	6100 4300 6100 4500
 Wire Wire Line
-	6300 4900 6300 5050
-Connection ~ 6100 5050
+	5700 4300 5700 4500
 Wire Wire Line
-	6300 5050 4700 5050
+	5500 3200 5500 3800
 Wire Wire Line
-	3600 3200 3250 3200
+	5900 3000 5900 3800
 Wire Wire Line
-	3400 3400 3250 3400
+	6300 2800 6300 3800
+Wire Wire Line
+	6100 3800 6100 2900
+Wire Wire Line
+	5700 3800 5700 3100
+Wire Wire Line
+	5500 4300 5500 4500
+Wire Wire Line
+	5900 4300 5900 4500
+Wire Wire Line
+	6300 4300 6300 4500
+Wire Wire Line
+	5700 4900 5700 5050
+Connection ~ 5500 5050
+Wire Wire Line
+	6100 5050 6100 4900
+Connection ~ 5900 5050
+Connection ~ 4700 5050
+Wire Wire Line
+	5900 4900 5900 5050
+Wire Wire Line
+	3400 3400 3400 2800
+Wire Wire Line
+	3700 2400 3700 3100
+Wire Wire Line
+	3550 3200 3550 3000
+Wire Wire Line
+	3400 2800 3850 2800
+Wire Wire Line
+	3700 3100 3850 3100
+Wire Wire Line
+	3700 3400 3850 3400
+Wire Wire Line
+	6100 2900 5250 2900
+Wire Wire Line
+	5700 3100 5250 3100
+$Comp
+L +5V #PWR?
+U 1 1 51853542
+P 3700 2400
+F 0 "#PWR?" H 3700 2490 20  0001 C CNN
+F 1 "+5V" H 3700 2490 30  0000 C CNN
+	1    3700 2400
+	1    0    0    -1  
+$EndComp
 $Comp
 L LED D?
 U 1 1 5184D4C5
@@ -199,10 +215,10 @@ $EndComp
 $Comp
 L 74LS595 U?
 U 1 1 5184D3FC
-P 4500 3250
-F 0 "U?" H 4650 3850 70  0000 C CNN
-F 1 "74LS595" H 4500 2650 70  0000 C CNN
-	1    4500 3250
+P 4550 3250
+F 0 "U?" H 4700 3850 70  0000 C CNN
+F 1 "74LS595" H 4550 2650 70  0000 C CNN
+	1    4550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
