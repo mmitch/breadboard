@@ -31,7 +31,7 @@ void init(void)
 
 }
 
-/* activate a single pin, deactivate all others */
+/* activate a single LED via shift register */
 void light_led(int n)
 {
 	// we just push 5 new bits into shift register
