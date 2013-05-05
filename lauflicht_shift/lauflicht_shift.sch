@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sa 04 Mai 2013 18:21:34 CEST
+EESchema Schematic File Version 2  date So 05 Mai 2013 21:21:49 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,12 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 may 2013"
+Date "5 may 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -42,6 +43,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 74HC595 U?
+U 1 1 5186B145
+P 4550 3250
+F 0 "U?" H 4700 3850 70  0000 C CNN
+F 1 "74HC595" H 4550 2650 70  0000 C CNN
+	1    4550 3250
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5250 3200 5500 3200
 Wire Wire Line
@@ -210,15 +220,6 @@ P 5500 4050
 F 0 "R?" V 5580 4050 50  0000 C CNN
 F 1 "200" V 5500 4050 50  0000 C CNN
 	1    5500 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS595 U?
-U 1 1 5184D3FC
-P 4550 3250
-F 0 "U?" H 4700 3850 70  0000 C CNN
-F 1 "74LS595" H 4550 2650 70  0000 C CNN
-	1    4550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
