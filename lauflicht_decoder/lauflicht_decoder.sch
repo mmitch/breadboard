@@ -1,0 +1,253 @@
+EESchema Schematic File Version 2  date So 05 Mai 2013 21:33:07 CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "5 may 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4650 4350 6400 4350
+Wire Wire Line
+	6400 4350 6400 3700
+Wire Wire Line
+	4650 4150 5800 4150
+Wire Wire Line
+	5800 4150 5800 3700
+Wire Wire Line
+	4650 3950 5200 3950
+Wire Wire Line
+	5200 3950 5200 3700
+Wire Wire Line
+	6100 2950 6100 3200
+Wire Wire Line
+	5500 2950 5500 3200
+Wire Wire Line
+	3350 4450 3350 2400
+Connection ~ 5500 2400
+Wire Wire Line
+	5500 2550 5500 2400
+Connection ~ 6100 2400
+Wire Wire Line
+	6100 2550 6100 2400
+Connection ~ 4750 2400
+Wire Wire Line
+	4750 2200 4750 2400
+Connection ~ 3350 4650
+Wire Wire Line
+	3450 4650 3350 4650
+Wire Wire Line
+	3350 4450 3450 4450
+Wire Wire Line
+	3450 4050 3100 4050
+Wire Wire Line
+	3100 4050 3100 4400
+Wire Wire Line
+	3100 4400 2700 4400
+Wire Wire Line
+	2700 4500 3000 4500
+Wire Wire Line
+	3000 4500 3000 3950
+Wire Wire Line
+	3000 3950 3450 3950
+Wire Wire Line
+	2700 4300 3200 4300
+Wire Wire Line
+	3200 4300 3200 4150
+Wire Wire Line
+	3200 4150 3450 4150
+Wire Wire Line
+	3450 4550 3350 4550
+Wire Wire Line
+	3350 4550 3350 5500
+Wire Wire Line
+	3350 2400 6400 2400
+Wire Wire Line
+	6400 2400 6400 2550
+Wire Wire Line
+	5800 2550 5800 2400
+Connection ~ 5800 2400
+Wire Wire Line
+	5200 2550 5200 2400
+Connection ~ 5200 2400
+Wire Wire Line
+	5200 2950 5200 3200
+Wire Wire Line
+	5800 2950 5800 3200
+Wire Wire Line
+	6400 2950 6400 3200
+Wire Wire Line
+	5500 3700 5500 4050
+Wire Wire Line
+	5500 4050 4650 4050
+Wire Wire Line
+	6100 3700 6100 4250
+Wire Wire Line
+	6100 4250 4650 4250
+$Comp
+L R R?
+U 1 1 5186B3C5
+P 6400 3450
+F 0 "R?" V 6480 3450 50  0000 C CNN
+F 1 "200" V 6400 3450 50  0000 C CNN
+	1    6400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5186B3C3
+P 6100 3450
+F 0 "R?" V 6180 3450 50  0000 C CNN
+F 1 "200" V 6100 3450 50  0000 C CNN
+	1    6100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5186B3C1
+P 5800 3450
+F 0 "R?" V 5880 3450 50  0000 C CNN
+F 1 "200" V 5800 3450 50  0000 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5186B3C0
+P 5500 3450
+F 0 "R?" V 5580 3450 50  0000 C CNN
+F 1 "200" V 5500 3450 50  0000 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5186B3B1
+P 5200 3450
+F 0 "R?" V 5280 3450 50  0000 C CNN
+F 1 "200" V 5200 3450 50  0000 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5186B366
+P 6400 2750
+F 0 "D?" H 6400 2850 50  0000 C CNN
+F 1 "LED" H 6400 2650 50  0000 C CNN
+	1    6400 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5186B365
+P 6100 2750
+F 0 "D?" H 6100 2850 50  0000 C CNN
+F 1 "LED" H 6100 2650 50  0000 C CNN
+	1    6100 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5186B363
+P 5800 2750
+F 0 "D?" H 5800 2850 50  0000 C CNN
+F 1 "LED" H 5800 2650 50  0000 C CNN
+	1    5800 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5186B35D
+P 5500 2750
+F 0 "D?" H 5500 2850 50  0000 C CNN
+F 1 "LED" H 5500 2650 50  0000 C CNN
+	1    5500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5186B351
+P 5200 2750
+F 0 "D?" H 5200 2850 50  0000 C CNN
+F 1 "LED" H 5200 2650 50  0000 C CNN
+	1    5200 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5186B342
+P 4750 2200
+F 0 "#PWR?" H 4750 2290 20  0001 C CNN
+F 1 "+5V" H 4750 2290 30  0000 C CNN
+	1    4750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5186B333
+P 3350 5500
+F 0 "#PWR?" H 3350 5500 30  0001 C CNN
+F 1 "GND" H 3350 5430 30  0001 C CNN
+	1    3350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA16-P IC?
+U 1 1 5186B2DB
+P 1700 4500
+F 0 "IC?" H 900 6230 50  0000 L BNN
+F 1 "ATMEGA16-P" H 1925 2500 50  0000 L BNN
+F 2 "DIL40" H 2200 2425 50  0001 C CNN
+	1    1700 4500
+	1    0    0    -1  
+$EndComp
+Text Notes 3450 5050 0    60   ~ 0
+74LS138 should be 74HC138!
+$Comp
+L 74LS138 U?
+U 1 1 5186B237
+P 4050 4300
+F 0 "U?" H 4150 4800 60  0000 C CNN
+F 1 "74LS138" H 4200 3751 60  0000 C CNN
+	1    4050 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
