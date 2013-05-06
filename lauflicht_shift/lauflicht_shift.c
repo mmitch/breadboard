@@ -1,5 +1,5 @@
 /*
- * ATmega168 code for Signal Board/Signal Licht
+ * ATmega168 code for Signal Board + breadboard circuit
  *
  * Copyright (C) 2013 by  Christian Garbs <mitch@cgarbs.de>
  * licensed under the GNU GPL v3 or later
