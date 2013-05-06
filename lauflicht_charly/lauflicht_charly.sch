@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date So 05 Mai 2013 21:58:45 CEST
+EESchema Schematic File Version 2  date Mo 06 Mai 2013 22:08:20 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:lauflicht_charly-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "5 may 2013"
+Date "6 may 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +43,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3450 3550 3800 3550
 Wire Wire Line
 	4500 4350 5400 4350
 Connection ~ 5050 4350
@@ -61,8 +62,6 @@ Wire Wire Line
 	4000 4350 3800 4350
 Wire Wire Line
 	3800 4350 3800 3750
-Wire Wire Line
-	3450 3550 3800 3550
 Wire Wire Line
 	3800 3750 3450 3750
 Wire Wire Line
@@ -161,11 +160,11 @@ $EndComp
 $Comp
 L ATMEGA16-P IC?
 U 1 1 5186B473
-P 2450 3750
-F 0 "IC?" H 1650 5480 50  0000 L BNN
-F 1 "ATMEGA16-P" H 2675 1750 50  0000 L BNN
-F 2 "DIL40" H 2950 1675 50  0001 C CNN
-	1    2450 3750
+P 2450 4350
+F 0 "IC?" H 1650 6080 50  0000 L BNN
+F 1 "ATMEGA16-P" H 2675 2350 50  0000 L BNN
+F 2 "DIL40" H 2950 2275 50  0001 C CNN
+	1    2450 4350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
