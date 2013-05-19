@@ -5,7 +5,12 @@
  * licensed under the GNU GPL v3 or later
  *
  * what we do here:
- * - put 5 LEDs on PB0, PB1, .. PB4
+ * - put 5 LEDs betweetn pins PB0, PB1 and PB2 in this Charlieplexing fashion:
+ *   LED1: PB1 --+>|-- PB0
+ *   LED2: PB0 --+>|-- PB1
+ *   LED3: PB1 --+>|-- PB2
+ *   LED4: PB2 --+>|-- PB1
+ *   LED5: PB2 --+>|-- PB0
  * - create a "running light" aka. Night Rider effect
  * - no interrupts, just plain and stupid waits between changing pins
  *
