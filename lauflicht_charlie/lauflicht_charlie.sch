@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mo 06 Mai 2013 22:08:20 CEST
+EESchema Schematic File Version 2  date So 19 Mai 2013 21:49:01 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "6 may 2013"
+Date "19 may 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -108,7 +108,7 @@ L LED D?
 U 1 1 5186B8FD
 P 5050 3300
 F 0 "D?" H 5050 3400 50  0000 C CNN
-F 1 "LED4" H 5050 3200 50  0000 C CNN
+F 1 "LED3" H 5050 3200 50  0000 C CNN
 	1    5050 3300
 	0    -1   -1   0   
 $EndComp
@@ -126,7 +126,7 @@ L LED D?
 U 1 1 5186B8CD
 P 4700 3300
 F 0 "D?" H 4700 3400 50  0000 C CNN
-F 1 "LED3" H 4700 3200 50  0000 C CNN
+F 1 "LED4" H 4700 3200 50  0000 C CNN
 	1    4700 3300
 	0    1    1    0   
 $EndComp
@@ -160,11 +160,11 @@ $EndComp
 $Comp
 L ATMEGA16-P IC?
 U 1 1 5186B473
-P 2450 4350
-F 0 "IC?" H 1650 6080 50  0000 L BNN
-F 1 "ATMEGA16-P" H 2675 2350 50  0000 L BNN
-F 2 "DIL40" H 2950 2275 50  0001 C CNN
-	1    2450 4350
+P 2450 3750
+F 0 "IC?" H 1650 5480 50  0000 L BNN
+F 1 "ATMEGA16-P" H 2675 1750 50  0000 L BNN
+F 2 "DIL40" H 2950 1675 50  0001 C CNN
+	1    2450 3750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
