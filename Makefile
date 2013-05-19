@@ -342,7 +342,6 @@ clean_list :
 	$(REMOVE) *.o
 	$(REMOVE) *.lst
 	$(REMOVE) *.bak
-	$(REMOVE) *-cache.lib
 	$(REMOVE) *~
 	$(REMOVE) $(SRC:.c=.s)
 	$(REMOVE) $(SRC:.c=.d)
