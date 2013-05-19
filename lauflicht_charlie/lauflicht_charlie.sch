@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date So 19 Mai 2013 21:49:01 CEST
+EESchema Schematic File Version 2  date Mo 20 Mai 2013 00:16:12 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:lauflicht_charlie-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -92,7 +93,7 @@ P 5400 3650
 F 0 "D?" H 5400 3750 50  0000 C CNN
 F 1 "LED5" H 5400 3550 50  0000 C CNN
 	1    5400 3650
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L LED D?
