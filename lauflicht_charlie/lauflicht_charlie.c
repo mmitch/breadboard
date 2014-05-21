@@ -5,7 +5,7 @@
  * licensed under the GNU GPL v3 or later
  *
  * what we do here:
- * - put 5 LEDs betweetn pins PB0, PB1 and PB2 in this Charlieplexing fashion:
+ * - put 5 LEDs between pins PB0, PB1 and PB2 in this Charlieplexing fashion:
  *   LED1: PB1 --+>|-- PB0
  *   LED2: PB0 --+>|-- PB1
  *   LED3: PB1 --+>|-- PB2
